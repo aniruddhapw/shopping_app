@@ -1,80 +1,84 @@
 *{
-box-sizing: border-box;
-
-}
-body{
-  margin: 0;
-}
-.container{
-  display: flex;
-  flex-direction: column;
-  width: 200px;
-  background-color: black;
-  height: fit-content;
-  justify-content: center;
-  color: aliceblue;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 10px;
-}
-input{
-  margin-bottom: 10px;
-  padding: 10px;
-  margin: 10px;
-}
-button{
-  height: 30px;
-  width: 100px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 15px;
-}
-ul,li,a{
-  text-decoration: none;
-  color: white;
-
-}
-ul{
-  display: flex;
-  justify-content: space-between;
-  width: 300px;
-  font-size: 18px;
-  color: white;
-}
-form>h2{
-  text-align: center;
-}
-.items{
+  box-sizing: border-box;
   
-  display: flex;
-  justify-content: space-between;
-  padding: 10px;
-}
-.item{
-  text-align: center;
-  border-style: dashed;
-  padding: 10px;
-  width: 200px;
-}
-.cart-item{
-  display: inline-block;
-  border-style: dashed;
-  width: 200px;
-  text-align: center;
-}
-.cart{
+  }
+  body{
+    margin: 0;
+  }
+  .container{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    background-color: black;
+    height: fit-content;
+    justify-content: center;
+    color: aliceblue;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+  .container>p{
+text-align: center;
+  }
+  input{
+    margin-bottom: 10px;
+    padding: 10px;
+    margin: 10px;
+  }
+  button{
+    height: 30px;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+  }
+  ul,li,a{
+    text-decoration: none;
+    color: white;
   
-  padding: 10px;
-}
-.cart>h2{
-display: block;
-}
-nav{
-  background-color: black;
-  color: white;
-  padding: 10px;
-}
-.image{
-  width: 100px;
-  max-height: 200px;
-}
+  }
+  ul{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    font-size: 18px;
+    color: white;
+  }
+  form>h2{
+    text-align: center;
+  }
+  .items{
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  .item{
+    text-align: center;
+    border-style: dashed;
+    padding: 10px;
+    width: 200px;
+  }
+  .cart-item{
+    display: inline-block;
+    border-style: dashed;
+    width: 200px;
+    text-align: center;
+  }
+  .cart{
+    
+    padding: 10px;
+  }
+  .cart>h2{
+  display: block;
+  }
+  nav{
+    background-color: black;
+    color: white;
+    padding: 10px;
+  }
+  .image{
+    width: 100px;
+    max-height: 200px;
+  }
